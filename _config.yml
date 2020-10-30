@@ -42,7 +42,7 @@ scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -66,9 +66,9 @@ custom_logo: #/uploads/custom-logo.jpg
 # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
-  license: by-nc-sa
-  sidebar: false
-  post: false
+  license: by-nc-nd
+  sidebar: true
+  post: true
   language:
 
 
@@ -285,6 +285,17 @@ follow_me:
   # Telegram: https://t.me/pengloo53 || fab fa-telegram
   # WeChat: /images/wechat_channel.jpg || fab fa-weixin
   # RSS: /atom.xml || fa fa-rss
+
+# Custom declaration，write some information Below the article，like https://creativecommons.org
+# Usage: key: value
+# ---------------------------------------------------------------
+declaration_setting:
+  enable: true
+  url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh
+  name: CC BY-NC-ND 4.0
+
+declarations:
+  版权申明: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -656,7 +667,7 @@ gitalk:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     # <app_id>
+  id:     27958
   color:  "#fc6423"
 
 # AddThis Share. See: https://www.addthis.com

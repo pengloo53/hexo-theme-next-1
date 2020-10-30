@@ -19,15 +19,19 @@
 }
 
 if (hexo-config('creative_commons.post')) {
-  .post-copyright ul {
-    list-style: none;
-    padding: .5em 1em;
-    post-card();
+  .post-copyright{
+    font-size: 0.9em;
+    color: #999;
+    ul {
+      padding: 1em;
+      list-style: none;
+      post-card();
+    }
   }
 }
 
 .post-tags {
-  margin-top: 40px;
+  margin-top: 15px;
   text-align: center;
 
   a {
@@ -37,5 +41,18 @@ if (hexo-config('creative_commons.post')) {
     &:not(:last-child) {
       margin-right: 10px;
     }
+  }
+}
+
+.post-declaration {
+  margin-top: 15px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #999;
+  background-color: #F5F7F9;
+  padding: 15px;
+  ul {
+    margin-left: 0px
+    list-style: none
   }
 }

@@ -5,3 +5,16 @@
     </div>
   </div>
 {%- endif %}
+
+{%- if theme.declaration_setting.enable %}
+  <div class="post-declaration">
+    <ul>
+      {%- for text, URL in theme.declarations %}
+        <li class="links-of-blogroll-item">
+        {# {%- text %} <a href="{%- URL %}">{%- URL %}</a> #}
+          {{ next_url(URL, text, {title: URL}) }}
+        </li>
+      {%- endfor %}
+    </ul>
+  </div>
+{%- endif %}
