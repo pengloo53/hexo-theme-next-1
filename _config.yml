@@ -42,7 +42,7 @@ scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
-darkmode: false
+darkmode: true
 
 
 # ---------------------------------------------------------------
@@ -290,12 +290,11 @@ follow_me:
 # Usage: key: value
 # ---------------------------------------------------------------
 declaration_setting:
-  enable: true
-  url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh
-  name: CC BY-NC-ND 4.0
+  enable: false
 
 declarations:
-  版权申明: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh
+  关注我：微信公众号「自由产品之路」
+  支持我：小专栏「https://xiaozhuanlan.com/lupeng」
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
